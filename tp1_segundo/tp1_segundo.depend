@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1535924623 source:c:\users\administrador\desktop\tps_segundo_cuatri\tp1_segundo\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+
+1535498828 source:c:\users\administrador\desktop\tps_segundo_cuatri\tp1_segundo\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+
+1535924623 c:\users\administrador\desktop\tps_segundo_cuatri\tp1_segundo\funciones.h
+
+1535726977 source:c:\users\alumno\desktop\tps_segundo_cuatri\tp1_segundo\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+
+1535725824 c:\users\alumno\desktop\tps_segundo_cuatri\tp1_segundo\funciones.h
+
+1535727063 source:c:\users\alumno\desktop\tps_segundo_cuatri\tp1_segundo\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"funciones.h"
+
