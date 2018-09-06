@@ -28,3 +28,18 @@
 	<ctype.h>
 	"funciones.h"
 
+1536244320 source:c:\users\alumno\desktop\tp_laboratorio_1_seg\tp1_segundo\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+
+1536243373 c:\users\alumno\desktop\tp_laboratorio_1_seg\tp1_segundo\funciones.h
+
+1536244228 source:c:\users\alumno\desktop\tp_laboratorio_1_seg\tp1_segundo\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"funciones.h"
+

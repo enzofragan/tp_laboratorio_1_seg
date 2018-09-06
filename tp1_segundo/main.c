@@ -68,7 +68,7 @@ int main()
 
             while(respuesta!='y' && respuesta!='n')
             {
-                printf("ingrese un valor valido, desas continuar? ");
+                printf("esta seguro? ");
                 fflush(stdin);
                 scanf("%c",&respuesta);
             }

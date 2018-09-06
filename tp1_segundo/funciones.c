@@ -148,15 +148,23 @@ float dividir(float numeroUno,float numeroDos)
  */
 float factores(float numeroUno)
 {
-    float factor;
+    float factor=1;
+    int i;
 
-    if(numeroUno==0)
+    if(numeroUno==1 || numeroUno==0)
     {
-        factor = 1;
+        factor=1;
+    }
+    else if(numeroUno<0)
+    {
+        printf("el numero es negativo\n");
     }
     else
     {
-        factor=numeroUno * factores(numeroUno-1);
+        for(i=1;i<=numeroUno;i++)
+        {
+            factor=factor*i;
+        }
     }
 
     return factor;
@@ -289,13 +297,14 @@ char getChar(char mensaje[],char error[])
     printf("%s",mensaje);
     fflush(stdin);
     scanf("%s",buffer);
-    while(esLetra(buffer)==-1 && buffer!='y' && buffer!='n')
+    while(esLetra(buffer)==-1)
     {
         printf("%s",error);
         fflush(stdin);
         scanf("%s",buffer);
     }
     auxiliar=buffer;
+
     return auxiliar;
 }
 
